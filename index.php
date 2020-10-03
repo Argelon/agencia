@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/bulma.min.css">
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -130,43 +131,58 @@
     <!-- FIM EQUIPE -->
 
     <!-- INICIO CONTATOS -->
-    <section id="contatos">
-      <div class="container">
-        <br><br><br>
-        <h4 style="color: #FFD700; text-align: center;"><center>CONTATO</center></h4>
-        <br>
-        <div class="row">
-          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-            <br>
-            <p style="font-size: 26px; color: white;">Se voçê é especialista em algum assunto entre em contato com a gente, <b style="color:#F0E68C;">vamos mostrar para o mundo a sua especialidade !</b></p>
-            <br>
-          </div>
-          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-            <br>
-            <form name="formteste" action="" method="post">
-            <br>
-            <center><h5 style="color: #F0E68C; text-align: center;">Enviar email:</h5></center>
-            <br>
-            <p class="nome">
-             <input type="text" name="nome" placeholder="informe seu nome" required="required">
-             </p>
+    <section class="section">
+		<div class="container">
+			<div class="columns is-centered">
+				<div class="column is-half">
+					<h1 class="title has-text-centered">Formulário de Contato - Canal TI</h1>
 
-            <p class="email">
-             <input type="email" name="email" placeholder="informe seu email" required="required">
-           </p>
+					<form action="enviar.php" method="POST">
+						<div class="field">
+							<label class="label">Nome</label>
+							<div class="control">
+								<input name="nome" class="input" type="text" placeholder="Seu nome">
+							</div>
+						</div>
 
-            <p class="mensagem">
-             <textarea name="mensagem" placeholder="deixe sua mensagem"></textarea>
-             </p>
+						<div class="field">
+							<label class="label">Email *</label>
+							<div class="control">
+								<input name="email" class="input" type="email" placeholder="Seu email">
+							</div>
+						</div>
 
-            <p class="enviar">
-             <button type="button" class="btn btn-warning">Enviar</button>
-             </p>
-           </form><br><br><br><br>
-          </div>
-        </div>
-      </div>
-    </section>
+						<div class="field">
+							<label class="label">Assunto</label>
+							<div class="control">
+								<div class="select is-fullwidth">
+									<select name="assunto">
+										<option>Reportar erro</option>
+										<option>Anúncios</option>
+										<option>Outro</option>
+									</select>
+								</div>
+							</div>
+						</div>
+
+						<div class="field">
+							<label class="label">Mensagem *</label>
+							<div class="control">
+								<textarea name="mensagem" class="textarea" placeholder="Deixe sua mensagem" maxlength="2000"></textarea>
+							</div>
+						</div>
+
+						<div class="field is-grouped">
+							<div class="control">
+								<button class="button is-link is-medium">Enviar</button>
+							</div>
+						</div>
+					</form>
+
+				</div>
+			</div>
+		</div>
+	</section>
     <!-- FIM CONTATOS -->
 
     <!-- INICIO RODAPE -->
