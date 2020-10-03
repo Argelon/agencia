@@ -6,13 +6,13 @@
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <title>NEWLORE</title>
+    <title>WWL</title>
   </head>
   <body>
     <!-- INICIO HEADER -->
     <header>
       <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
-        <a style="color: #FFD700;" class="navbar-brand" href="#">NEWLORE</a>
+        <a style="color: #aa2500;" class="navbar-brand" href="#inicio">WORLD WIDE LAUNCH</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#textoNavbar" aria-controls="textoNavbar" aria-expanded="false" aria-label="Alterna navegação">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -22,19 +22,18 @@
               <a class="nav-link" href="#inicio">Início</a>
             </li>
             <li class="nav-item mr-3 active">
-              <a class="nav-link" href="#metodologia">Metodologia</a>
+              <a class="nav-link" href="#metodologia">Nosso Trabalho</a>
             </li>
             <li class="nav-item mr-3 active">
               <a class="nav-link" href="#equipe">Equipe</a>
             </li>
             <li class="nav-item mr-3 active">
+              <a class="nav-link" href="#trabalho">Metodologia</a>
+            </li>
+            <li class="nav-item mr-3 active">
               <a class="nav-link" href="#contatos">Contato</a>
             </li>
           </ul>
-          <span class="navbar-text">
-            <a class="mr-3" href=""> <img src="img/logoface.png" width="30px"> </a>
-            <a class="mr-3" href=""> <img src="img/logoinsta.png" width="25px"> </a>
-          </span>
         </div>
       </nav>
     </header>
@@ -43,7 +42,7 @@
     <!-- INICIO BANNER -->
     <section id="inicio">
   		<div class="banner-content">
-  			<h3 style="color: #FFD700;">NEWLORE</h3>
+  			<h3 style="color: #aa2500;">WORLD WIDE LAUNCH</h3>
         <br>
         <p>Compartilhe seu conhecimento com o mundo !</p>
         <br>
@@ -58,32 +57,19 @@
         <div class="row">
           <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
             <br><br><br>
-            <h4 style="color: #FFD700; text-align: center;">PODEMOS TE AJUDAR !</h4>
+            <h3 style="color: #aa2500; text-align: center;">PODEMOS TE AJUDAR !</h3>
             <br>
           </div>
-          <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 acreditamos">
-            <p>Acreditamos que o seu conhecimento pode ser usado para a <b style="color:#F0E68C;">criação de produtos digitais.</b></p>
+          <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7 mt-3 acreditamos">
+            <p>Acreditamos que o seu conhecimento pode ser usado para a <b style="color:#ce7900;">criação de produtos digitais</b> e estamos dispostos a te ajudar em tudo que for necessário !</p>
           </div>
-          <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 ajudamos">
-            <p>Você quer ser um infoprodutor de sucesso? Quer que seu produto, curso, ebook cheguem a todos que precisam deles? Se sim, você está na agência certa. <br>
+          <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 ajudamos">
+            <center><img src="img/ajuda.png" width="80%"></center>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 mt-5 ajudamos">
+            <p>Você quer ser um infoprodutor de sucesso? Quer que seu produto, curso, ebook cheguem a todos que precisam deles? Se sim, você está na agência certa. <br><br>
             Não faça sozinho! Deixe te ajudarmos com o trabalho duro. Nossa equipe de marketing e designers tem os conhecimentos perfeitos para fazer você decolar na internet e levar a sua mensagem para todo o mundo!<br>
             </p>
-          </div>
-          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-            <br>
-            <h5 style="color: #FFD700; text-align: center;">FAZEMOS TAMBÉM:</h5>
-          </div>
-          <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-            <h6 style="color: #F0E68C; text-align: center;">VENDAS</h6>
-            <p style="color:silver;">Vendemos o seu produto digital, seu curso ou seus serviços. O público, que já está engajado, agora será seu cliente. E você vai transformar ainda mais vidas.</p>
-          </div>
-          <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-            <h6 style="color: #F0E68C; text-align: center;">ATRAÇÃO</h6>
-            <p style="color:silver;">Definimos o seu avatar (público alvo) e o seu nicho e vamos atrair este público através das mídias sociais, utilizando iscas digitais e convertendo em leads.</p>
-          </div>
-          <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-            <h6 style="color: #F0E68C; text-align: center;">RELACIONAMENTO</h6>
-            <p style="color:silver;">Ajudamos você a se relacionar com este público com conteúdo de qualidade e ajudamos as pessoas que precisam do seu conhecimento de forma eficiente e direta.</p>
           </div>
         </div>
       </div>
@@ -95,33 +81,27 @@
     <section id="equipe">
       <div class="container">
         <br><br><br>
-        <h4 style="color: #FFD700; text-align: center;">NOSSA EQUIPE</h4>
+        <h3 style="color: #aa2500; text-align: center;">NOSSA EQUIPE</h3><br>
         <div class="row justify-content-center">
           <div class="col-xs-5 -col-sm-5 col-md-4 col-lg-3 mr-3 ml-3 mt-4 player">
             <img class="foto" src="img/team-2.jpg" alt="Avatar" style="width:100%">
             <div class="container">
-              <h6>Argel</h6>
+              <h6 style="color:#ce7900;">Argel Vincenzi</h6>
               <p>Web Designer</p>
-              <a class="mr-3" href=""> <img src="img/logoface.png" width="25px"> </a>
-              <a href=""> <img src="img/logoinsta.png" width="20px"> </a>
             </div>
           </div>
           <div class="col-xs-5 -col-sm-5 col-md-4 col-lg-3 mr-3 ml-3 mt-4 player">
             <img class="foto" src="img/team-2.jpg" alt="Avatar" style="width:100%">
             <div class="container">
-              <h6>Vinicius</h6>
+              <h6 style="color:#ce7900;">Vinicius Nascimento</h6>
               <p>Co-Produtor</p>
-              <a class="mr-3" href=""> <img src="img/logoface.png" width="25px"> </a>
-              <a href=""> <img src="img/logoinsta.png" width="20px"> </a>
             </div>
           </div>
           <div class="col-xs-5 -col-sm-5 col-md-4 col-lg-3 mr-3 ml-3 mt-4 player">
             <img class="foto" src="img/team-2.jpg" alt="Avatar" style="width:100%">
             <div class="container">
-              <h6>Carlos</h6>
+              <h6 style="color:#ce7900;">Carlos Klim</h6>
               <p>Tráfego</p>
-              <a class="mr-3" href=""> <img src="img/logoface.png" width="25px"> </a>
-              <a href=""> <img src="img/logoinsta.png" width="20px"> </a>
             </div>
           </div>
         </div>
@@ -129,57 +109,93 @@
     </section>
     <!-- FIM EQUIPE -->
 
+    <!-- INICIO TRABALHO -->
+      <section id="trabalho">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <br><br><br>
+            <h3 style="color: #aa2500; text-align: center;">FAZEMOS TODO O TRABALHO</h3> <br>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+            <h5 style="color: #fff; text-align: center; margin-top:20px;">VENDAS</h5> <br>
+            <center> <img src="img/vendas.png" width="40%"> </center> <br>
+            <p style="color:silver; font-size:20px; text-align:justify;">Vendemos o seu produto digital, seu curso ou seus serviços. O público, que já está engajado, agora será seu cliente. E você vai transformar ainda mais vidas.</p>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+            <h5 style="color: #fff; text-align: center; margin-top:20px;">RELACIONAMENTO</h5> <br>
+            <center> <img src="img/relacionamento.png" width="40%"> </center> <br>
+            <p style="color:silver; font-size:20px; text-align:justify;">Ajudamos você a se relacionar com este público com conteúdo de qualidade e ajudamos as pessoas que precisam do seu conhecimento.</p>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+            <h5 style="color: #fff; text-align: center; margin-top:20px;">TRÁFEGO</h5> <br>
+            <center> <img src="img/trafego.png" width="40%"> </center> <br>
+            <p style="color:silver; font-size:20px; text-align:justify;">Definimos o seu avatar (público alvo) e o seu nicho e vamos atrair este público através das mídias sociais, utilizando iscas digitais e convertendo em leads.</p>
+          </div>
+
+          </div>
+        </div>
+        <br><br>
+      </section>
+    <!-- FIM TRABALHO -->
+
     <!-- INICIO CONTATOS -->
-    <section class="section">
+    <section id="contatos" class="section">
 		<div class="container">
-			<div class="columns is-centered">
-				<div class="column is-half">
-					<h1 class="title has-text-centered">Formulário de Contato - Canal TI</h1>
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <br><br><br>
+          <h3 style="color: #aa2500; text-align: center;">FALE COM A GENTE</h3><br><br>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+          <p style="font-size:26px; color: silver;">Se voçê é especialista em algum assunto entre em contato com a gente, <b style="color:#ce7900; font-size:26px;">criação de produtos digitais</b> vamos mostrar para o mundo a sua especialidade !</p>
+        </div>
+              <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+  					    <form action="enviar.php" method="POST">
+                  <br>
+                  <center> <h5 style="color: #ce7900">Enviar Email</h5> </center>
 
-					<form action="enviar.php" method="POST">
-						<div class="field">
-							<label class="label">Nome</label>
-							<div class="control">
-								<input name="nome" class="input" type="text" placeholder="Seu nome">
-							</div>
-						</div>
+  					    <div class="field">
+  							<!--<label style="color:white;" class="label">Nome</label>--> <br>
+  							<div class="control">
+  								<input name="nome" class="input" type="text" placeholder="Seu nome">
+  							</div>
+  						</div>
 
-						<div class="field">
-							<label class="label">Email *</label>
-							<div class="control">
-								<input name="email" class="input" type="email" placeholder="Seu email">
-							</div>
-						</div>
+  						<div class="field">
+  							<!--<label style="color:white;" class="label">Email</label>--> <br>
+  							<div class="control">
+  								<input name="email" class="input" type="email" placeholder="Seu email">
+  							</div>
+  						</div>
 
-						<div class="field">
-							<label class="label">Assunto</label>
-							<div class="control">
-								<div class="select is-fullwidth">
-									<select name="assunto">
-										<option>Reportar erro</option>
-										<option>Anúncios</option>
-										<option>Outro</option>
-									</select>
-								</div>
-							</div>
-						</div>
+  						<div class="field"> <br>
+  							<label style="color:white;" class="label">Assunto :</label>
+  							<div class="control">
+  								<div class="select is-fullwidth">
+  									<select name="assunto">
+  										<option>Sou Especialista</option>
+  										<option>Outro</option>
+  									</select>
+  								</div>
+  							</div>
+  						</div>
 
-						<div class="field">
-							<label class="label">Mensagem *</label>
-							<div class="control">
-								<textarea name="mensagem" class="textarea" placeholder="Deixe sua mensagem" maxlength="2000"></textarea>
-							</div>
-						</div>
+  						<div class="field">
+  							<!--<label style="color:white;" class="label">Mensagem</label>--> <br>
+  							<div class="control">
+  								<textarea name="mensagem" class="textarea" placeholder="Deixe sua mensagem" maxlength="2000"></textarea>
+  							</div>
+  						</div>
 
-						<div class="field is-grouped">
-							<div class="control">
-								<button class="button is-link is-medium">Enviar</button>
-							</div>
-						</div>
-					</form>
-
-				</div>
-			</div>
+  						<div class="field is-grouped">
+  							<div class="control"> <br>
+  								<button type="button" class="button is-link is-medium btn btn-warning">Enviar</button>
+  							</div>
+  						</div>
+  				</form>
+        </div>
+      </div>
 		</div>
 	</section>
     <!-- FIM CONTATOS -->

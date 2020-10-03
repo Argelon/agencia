@@ -3,7 +3,7 @@ header nav{
   background-color: rgba(20, 20, 20, .8);
 }
 header nav .navbar-brand{
-  margin-right: 100px;
+  margin-right: 30px;
 }
 /* -----------------------FIM NAVBAR----------------------- */
 
@@ -17,7 +17,7 @@ header nav .navbar-brand{
   background-color: #1C1C1C;
 	background-size: cover;
 	background-position: center;
-	background-image: url('../img/banner-1.png');
+	background-image: url('../img/map-image.png');
 }
 .banner-content{
 	margin: 0;
@@ -25,7 +25,6 @@ header nav .navbar-brand{
 	width: 100%;
 	height: 100%;
 	color: #FFF;
-	background-color: rgba(20, 20, 20, .4);
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -59,15 +58,21 @@ header nav .navbar-brand{
 
 /* -----------------------INICIO METODOLOGIA----------------------- */
 #metodologia{
-  background-color: #1C1C1C;
+  background-color: #2a2a2a;
 }
 .acreditamos p{
-  font-size: 27px;
+  font-size: 34px;
   color: white;
 }
 .ajudamos p{
-  font-size: 19px;
+  font-size: 24px;
   color: white;
+}
+.acreditamos{
+  text-align: justify;
+}
+.ajudamos{
+  text-align: justify;
 }
 /* -----------------------FIM METODOLOGIA----------------------- */
 
@@ -79,11 +84,11 @@ header nav .navbar-brand{
   transition: 0.2s;
   color: black;
   padding-top: 13px;
-  background-color: #4F4F4F;
+  background-color: #2a2a2a;
   max-width: 300px;
 }
 #equipe{
-  background-color: #363636;
+  background-color: #191919;
 }
 .player a{
   padding: 5px;
@@ -108,6 +113,14 @@ section h4{
   text-align: center;
 }
 /* -----------------------FIM EQUIPE----------------------- */
+
+
+
+/* -----------------------INICIO TRABALHOS----------------------- */
+#trabalho{
+  background-color: #2a2a2a;
+}
+/* -----------------------FIM TRABALHOS----------------------- */
 
 
 
