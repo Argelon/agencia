@@ -13,12 +13,11 @@ header img{
 #inicio{
 	position: relative;
 	width: 100%;
-	height: calc(100vh - 56px);
+	height: calc(100vh);
   background-color: #1C1C1C;
 	background-size: cover;
 	background-position: center;
 	background-image: url('../img/map-image.png');
-  margin-top: 56px;
 }
 .banner-content{
 	margin: 0;
@@ -128,12 +127,11 @@ section h4{
 #frase{
 	position: relative;
 	width: 100%;
-	height: calc(100vh - 56px);
+	height: calc(100vh);
   background-color: #1C1C1C;
 	background-size: cover;
 	background-position: center;
 	background-image: url('../img/frase.jpg');
-  filter: brightness(70%);
 }
 .banner-content{
 	margin: 0;
@@ -150,7 +148,6 @@ section h4{
   font-size: 30px;
   color: white;
   text-align: center;
-  filter: brightness(140%);
   text-shadow: 2px 2px 4px #000000;
 }
 /* -----------------------FIM FRASE----------------------- */
