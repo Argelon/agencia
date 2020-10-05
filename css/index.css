@@ -13,11 +13,12 @@ header img{
 #inicio{
 	position: relative;
 	width: 100%;
-	height: calc(100vh);
+	height: calc(100vh - 56px);
   background-color: #1C1C1C;
 	background-size: cover;
 	background-position: center;
 	background-image: url('../img/map-image.png');
+  margin-top: 56px;
 }
 .banner-content{
 	margin: 0;
