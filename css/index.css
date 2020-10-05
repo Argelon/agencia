@@ -1,6 +1,6 @@
 /* -----------------------INICIO NAVBAR----------------------- */
 header nav{
-  background-color: rgba(20, 20, 20, .8);
+  background-color: rgba(10, 10, 10, .9);
 }
 header img{
   margin-right: 30px;
@@ -61,7 +61,7 @@ header img{
   background-color: #2a2a2a;
 }
 .acreditamos p{
-  font-size: 34px;
+  font-size: 30px;
   color: white;
 }
 .ajudamos p{
