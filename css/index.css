@@ -79,7 +79,7 @@ header img{
 
 
 /* -----------------------INICIO EQUIPE----------------------- */
-.player {
+/*.player {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
   transition: 0.2s;
   color: black;
@@ -111,14 +111,14 @@ header img{
 section h4{
   color: white;
   text-align: center;
-}
+}*/
 /* -----------------------FIM EQUIPE----------------------- */
 
 
 
 /* -----------------------INICIO TRABALHOS----------------------- */
 #trabalho{
-  background-color: #2a2a2a;
+  background-color: #1C1C1C;
 }
 /* -----------------------FIM TRABALHOS----------------------- */
 
@@ -158,6 +158,17 @@ section h4{
 #contatos{
   background-color: #1C1C1C;
 }
+.whatsapp a{
+	text-decoration: none;
+	color: #FFF;
+	padding: 7px 15px;
+	border: 1px solid #FFF;
+	transition: all .3s ease-in-out;
+}
+.whatsapp a:hover{
+	background-color: #fff;
+	color: #333;
+}
 /* -----------------------FIM CONTATOS----------------------- */
 
 
@@ -165,9 +176,8 @@ section h4{
 /* -----------------------INICIO RODAPE----------------------- */
 footer{
   background-color: #2a2a2a;
-}
-footer img{
-  margin-top: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 /* -----------------------FIM RODAPE----------------------- */
